@@ -5,8 +5,8 @@ function formData() {
   console.log(name);
   console.log(age);
 		if(age > 18){
-			console.log("nilesh")
+			window.alert(`Welcome, ${name}. You can vote.`)
 		}else{
-			console.log("154")
+			window.alert(`Oh sorry ${age}. You aren't old enough.`)
 		}
 }
